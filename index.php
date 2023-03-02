@@ -60,34 +60,30 @@
       .modal-content{
         color:  #fafafa;
         background: #16222A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       }
 
-
       .payment{
-    border-color: transparent;
-    background-color: transparent;
-    padding: -10px;
+      border-color: transparent;
+      background-color: transparent;
+      padding: -10px;
 
-}
-.img-fluid{
-    /* margin: 0px 20px 0px -19px; */
-   
-}
-.img-card{
-    max-width: 80%; 
-    height: auto;
-    /* margin: 0px 20px 0px -19px; */
-}
-.payment-container{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: -50px;
-    justify-content: center;
-}
+      }
+      .img-card{
+          max-width: 80%; 
+          height: auto;
+          /* margin: 0px 20px 0px -19px; */
+      }
+      .payment-container{
+          margin-left: 30px;
+          margin-right: 30px;
+          margin-bottom: -50px;
+          justify-content: center;
+      }
+      .header-logo{
+        margin-left: -20px;
+      }
      
     </style>
     <script>
@@ -114,7 +110,7 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
         <!-- <li><a href="#section1">Home</a></li> -->
-        <li class="has-submenu"><a href="#section2">About Us</a>
+        <li class="has-submenu"><a href="login.php">About Us</a>
           <!-- <ul class="sub-menu"> -->
             <!-- <li><a href="#section2">Who we are?</a></li>
             <li><a href="#section3">What we do?</a></li>
@@ -156,12 +152,12 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
           <div class="features-post">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-pencil"></i>sign up</h4>
+                <h4><i class="fa fa-pencil"></i>LOGIN</h4>
               </div>
               <div class="content-hide">
                 <!-- <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p> -->
                 <p class="hidden-sm"></p>
-                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                <div ><a href="login.php">More Info.</a></div>
             </div>
             </div>
           </div>
@@ -237,7 +233,7 @@ background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, F
       
         <div class="modal-header">
           <center>
-            <img src="assets/images/TEXTMARK2.png" class="img-fluid" style="max-width: 70%; height: auto;">
+            <img src="assets/images/TEXTMARK2.png" class="header-logo" style="max-width: 70%; height: auto;">
             </center>  
             <!-- <h5 class="modal-title" id="staticBackdropLabel"><center>PAYMENT</center></h5> -->
           <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
