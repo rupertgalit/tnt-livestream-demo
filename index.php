@@ -20,10 +20,9 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="hover.css">
 
     <style>
-
       .top-logo {
         width: 7%;
         height: auto;
@@ -40,8 +39,8 @@
         pointer-events: none;
       }
       .modal{
-        margin-top: 100px;
-        
+        margin-top: 100px;   
+            
       }
       .modal-header {   
         background: #04234a; 
@@ -59,9 +58,9 @@
       }
       .modal-content{
         color:  #fafafa;
-        background: #16222A;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #16222A;  
+        background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
       }
 
       .payment{
@@ -71,9 +70,13 @@
 
       }
       .img-card{
-          max-width: 80%; 
-          height: auto;
-          /* margin: 0px 20px 0px -19px; */
+        max-width: 160%; 
+        height: auto;
+        margin: 0px 20px 0px -10px;
+      }
+      .img-fluid{
+        margin: 0px 20px 0px -14px;
+   
       }
       .payment-container{
           margin-left: 30px;
@@ -157,11 +160,11 @@
               <div class="content-hide">
                 <!-- <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p> -->
                 <p class="hidden-sm"></p>
-                <div ><a href="login.php">More Info.</a></div>
+                <div ><a href="">More Info.</a></div>
             </div>
             </div>
           </div>
-        </div>
+        </div>                                  
         <div class="col-lg-4 col-12">
           <div class="features-post second-features">
             <div class="features-content">
@@ -197,31 +200,14 @@
   <section class="section video" data-section="section5">
     <div class="container">
       <div class="row">
-        
-        <iframe class="result" id="ifr" width="1200" height="590" src="https://www.youtube.com/embed/uBfIL1Wr5RQ" title="ONE Fight Night 7: Lineker vs. Andrade II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
-        <div class="main-button">
+      <!-- <div style="position:relative;padding-bottom:56.25%;overflow:hidden;height:auto;max-width:100%;"><iframe id="22c43314-7db3-bf0e-b60f-8e14c49b8a72" src="https://iframe.dacast.com/live/cee057a0-bc34-bed0-cc82-aa2e357f8011/22c43314-7db3-bf0e-b60f-8e14c49b8a72" width="100%" height="100%" frameborder="0" scrolling="no" allow="autoplay;encrypted-media" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen style="position:absolute;top:0;left:0;"></iframe></div> -->
+        <!-- <iframe class="result" id="ifr" width="1200" height="590" src="https://www.youtube.com/embed/uBfIL1Wr5RQ" title="ONE Fight Night 7: Lineker vs. Andrade II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+          <!-- <div id='wowza_player'></div> <script id='player_embed' src='//player.video.wowza.com/hosted/0tbd0wl7/wowza.js' type='text/javascript'></script> -->
+          <script id="cee057a0-bc34-bed0-cc82-aa2e357f8011-live-22c43314-7db3-bf0e-b60f-8e14c49b8a72" width="100%" height="100%" src="https://player.dacast.com/js/player.js?contentId=cee057a0-bc34-bed0-cc82-aa2e357f8011-live-22c43314-7db3-bf0e-b60f-8e14c49b8a72" class="dacast-video"></script>
+          
+          <div class="main-button">
          <div class="scroll-to-section"><button onclick="change_css();" type="button" class="btn btn-warning" data-toggle="modal" data-target="#staticBackdrop"> Buy now to watch online (PHP 200) </button></div>
-        </div>
-        <!-- <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Grad School</em></h4>
-            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
-            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Power HTML Template</h4>
-            </div>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
-            </figure>
-          </article>
-        </div> -->
+        </div>       
       </div>
     </div>
   </section>
@@ -265,7 +251,7 @@
                             <div class="col-md-4 ">
                                 <center>
                                             <button type="submit" class="payment pulse">                                            
-                                                <img src="assets/images/card-payment.png" class="img-fluid" style="max-width: 80%; height: auto;">                                            
+                                                <img src="assets/images/card-payment.png" class="img-fluid" style="max-width: 180%; height: auto;">                                            
                                             </button> 
                                             <span>Debit/Credit CARDS</span>                                                                               
                                 </center>
@@ -274,7 +260,7 @@
                             <div class="col-md-4 ">                                    
                                 <center>                                    
                                         <button type="submit" class="payment pulse" >
-                                            <img src="assets/images/qrph.png" class="img-fluid" style="max-width: 85%; height: auto;">                                 
+                                            <img src="assets/images/qrph.png" class="img-fluid" style="max-width: 160%; height: auto;">                                 
                                         </button> 
                                         <span>QRPh</span>                                                              
                             </div>                                               
